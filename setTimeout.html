@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SetTimeout</title>
+</head>
+<body>
+    <h1 id="title">SetTimeOut</h1>
+
+    <script>
+        const changer = setTimeout(function(){
+            const myElement = document.getElementById("title")
+            myElement.style.color = "blue"
+            myElement.style.fontSize = "5rem"
+        }, 5000)
+    </script>
+</body>
+</html>

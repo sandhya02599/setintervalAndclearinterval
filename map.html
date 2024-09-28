@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Method</title>
+</head>
+<body>
+    <h1>Map Method</h1>
+
+
+    <script>
+        const companies = [
+            {name:"infosys", category:"IT", start:1981, end:2004},
+            {name:"Apollo", category:"Hospital", start:1993, end:2008},
+            {name:"Apple", category:"Mobile", start:1989, end:2010},
+            {name:"Honda", category:"AutoMobiles", start:1967, end:2023}
+        ];
+        //map method//
+
+        const companyName = companies.map(function(company){
+            return company.name;
+        })
+
+        console.log(companyName);
+    </script>
+</body>
+</html>
